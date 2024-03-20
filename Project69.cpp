@@ -308,7 +308,7 @@ int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLine
 		return -1;
 	}
 
-	int width = 500, length = 405;
+	int width = 500, length = 1000;
 
 	HWND hWnd = CreateWindowEx(
 		WS_EX_OVERLAPPEDWINDOW,
